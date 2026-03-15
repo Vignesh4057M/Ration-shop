@@ -63,3 +63,36 @@
 .delete-btn:hover{
     background:#dc2626;
 }
+@media (max-width:768px){
+
+  .product-table-wrapper{
+    overflow-x:auto;
+  }
+
+  .product-table{
+    min-width:600px;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width:480px){
+
+  .table-header,
+  .table-data{
+    padding:8px;
+    font-size:13px;
+  }
+
+  .action-cell{
+    flex-direction:column;
+    gap:5px;
+  }
+
+  .update-btn,
+  .delete-btn{
+    width:100%;
+  }
+
+}

@@ -38,3 +38,37 @@
     color:red;
     font-weight:bold;
 }
+
+/* Tablet */
+
+@media (max-width:768px){
+
+  .stats-row{
+    flex-wrap:wrap;
+    gap:10px;
+  }
+
+  .stat-box{
+    flex:1 1 45%;
+    min-width:auto;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width:480px){
+
+  .stats-row{
+    flex-direction:column;
+  }
+
+  .stat-box{
+    width:100%;
+  }
+
+  .stat-value{
+    font-size:16px;
+  }
+
+}

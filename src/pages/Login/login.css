@@ -67,3 +67,43 @@
 .login-btn:hover{
   background:#1b5e20;
 }
+
+/* ---------------- MOBILE LOGIN ---------------- */
+
+@media (max-width:768px){
+
+  .login-card{
+    width:90%;
+    padding:25px;
+  }
+
+  .login-title{
+    font-size:22px;
+  }
+
+  .login-input{
+    padding:10px;
+    font-size:14px;
+  }
+
+  .login-btn{
+    padding:10px;
+    font-size:15px;
+  }
+
+}
+
+/* ---------------- SMALL MOBILE ---------------- */
+
+@media (max-width:480px){
+
+  .login-card{
+    width:95%;
+    padding:20px;
+  }
+
+  .login-title{
+    font-size:20px;
+  }
+
+}

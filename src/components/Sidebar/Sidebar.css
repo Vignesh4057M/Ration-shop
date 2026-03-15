@@ -24,3 +24,34 @@
 .sidebar li:hover{
     background:#374151;
 }
+
+/* Tablet */
+
+@media (max-width:768px){
+
+  .sidebar{
+    width:180px;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width:480px){
+
+  .sidebar{
+    width:100%;
+    height:auto;
+    position:relative;
+  }
+
+  .sidebar ul{
+    display:flex;
+    justify-content:space-around;
+  }
+
+  .sidebar li{
+    padding:8px;
+  }
+
+}

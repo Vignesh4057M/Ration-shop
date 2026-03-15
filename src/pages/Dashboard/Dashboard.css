@@ -73,3 +73,69 @@
   padding:6px 12px;
   cursor:pointer;
 }
+
+/* ---------------- MOBILE (max 768px) ---------------- */
+
+@media (max-width:768px){
+
+  .dashboard-container{
+    padding:10px;
+  }
+
+  /* Stack sections instead of side-by-side */
+  .dashboard-row{
+    grid-template-columns:1fr;
+  }
+
+  .shop-section,
+  .product-add-section,
+  .product-table-section{
+    padding:10px;
+  }
+
+  .section-title{
+    font-size:15px;
+  }
+
+  /* Buttons smaller */
+  .open-btn,
+  .close-btn{
+    padding:6px 8px;
+    font-size:13px;
+  }
+
+  /* Form stack vertically */
+  .add-product-form{
+    flex-direction:column;
+    gap:8px;
+  }
+
+  .input-field{
+    width:100%;
+  }
+
+  .add-btn{
+    width:100%;
+  }
+
+}
+
+/* ---------------- SMALL MOBILE (max 480px) ---------------- */
+
+@media (max-width:480px){
+
+  .section-title{
+    font-size:14px;
+  }
+
+  .shop-buttons{
+    flex-direction:column;
+    gap:6px;
+  }
+
+  .open-btn,
+  .close-btn{
+    width:100%;
+  }
+
+}

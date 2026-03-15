@@ -1,0 +1,65 @@
+.product-table-wrapper{
+    width:100%;
+    overflow-x:auto;
+    margin-top:20px;
+}
+
+.product-table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:6px;
+}
+
+.product-table-head{
+    background:#2563eb;
+    color:white;
+}
+
+.table-header{
+    padding:12px;
+    text-align:left;
+}
+
+.product-row{
+    border-bottom:1px solid #ddd;
+}
+
+.product-row:hover{
+    background:#f4f6f9;
+}
+
+.table-data{
+    padding:10px;
+}
+
+.action-cell{
+    display:flex;
+    gap:10px;
+}
+
+.update-btn{
+    background:#f59e0b;
+    border:none;
+    padding:6px 12px;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.update-btn:hover{
+    background:#d97706;
+}
+
+.delete-btn{
+    background:#ef4444;
+    border:none;
+    padding:6px 12px;
+    color:white;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+}
